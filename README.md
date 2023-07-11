@@ -16,3 +16,6 @@ val@pop-os:~/balenaFiles/bal-1/pisound$ balena fleets
 # run balena push val-one
  
 ## output is in the errorDump.txt file in this repository
+
+The Dockerfile runs ok now until line 327 when it finds broken packages
+     I am wondering if pisound is using 32 bit instead of 64 bit architecture
